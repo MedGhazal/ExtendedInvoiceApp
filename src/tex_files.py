@@ -31,22 +31,22 @@ tex_template_la_mome = r"""\documentclass{letter}
 \vspace{1cm}
 \begin{flushright}
 \begin{minipage}[t]{0.45\textwidth}
-    Èmetteur:\\\textbf{\textsc{LA MOME Business SARLau}}\\
-    QI \textsc{Sidi Ghanem} 158 1°étage bureau N°25\\ 
-    Marrakech 40000\\
-    \textbf{ICE}: 000113534000073
+    Èmetteur:\\\textbf{\textsc{....}}\\
+    ....\ 
+    ...\\
+    \textbf{ICE}: ...
 \end{minipage}
 \end{flushright}}
 \cfoot{
 \footnotesize
-\textbf{\textsc{LA MOME Business SARLau}}\\
-\textit{QI \textsc{Sidi Ghanem} 158 1°étage bureau N°25 40000 Marrakech Morocco}\\
-\textbf{ICE}: 000113534000073
-\textbf{RC}: 68789 \\
-\textbf{Patente}: 67194246
-\textbf{IF}: 15257275 
-\textbf{CNSS}: 4477495\\
-\textbf{Téléphone}: 0662401636\\
+\textbf{\textsc{...}}\\
+\textit{..}\\
+\textbf{ICE}: ...
+\textbf{RC}: .. \\
+\textbf{Patente}: ...
+\textbf{IF}: ... 
+\textbf{CNSS}: ...\\
+\textbf{Téléphone}: ...\\
 }}
 \pagestyle{plain}
 \makeatletter
@@ -66,10 +66,10 @@ tex_template_la_mome = r"""\documentclass{letter}
     \end{invoice}   
     NOTE
     \vspace{.5cm}
-    \textbf{Mode de paiement:} PAIMENTMODE\\
-    \textbf{Banque:} Crédit du MAROC\\
-    \textbf{SWIFT/BIC:} CDMAMAMC\\
-    \textbf{IBAN:} MA21221450000010103007050233\\
+    \textbf{Mode de paiement:} ...\\
+    \textbf{Banque:} ...\\
+    \textbf{SWIFT/BIC:} ...\\
+    \textbf{IBAN:} ...\\
   \end{letter}
 \end{document}"""
 
@@ -101,23 +101,23 @@ tex_template_marina = r"""\documentclass{letter}
 \vspace{1cm}
 \begin{flushright}
         \begin{minipage}[t]{0.45\textwidth}
-            Èmetteur:\\\textbf{\textsc{VIDA Marina Yachting SRLAU}}\\
-                        62 Lotissement Jnane 4 S.Y.B.A Marrakech 40000\\
-                        \textbf{ICE}: 002241177000022
+            Èmetteur:\\\textbf{\textsc{...}}\\
+                        ...\\
+                        \textbf{ICE}: ...
          \end{minipage}
 \end{flushright}
 }
 \cfoot{
 \footnotesize
-\textbf{\textsc{VIDA Marina Yachting SRLAU}}\\
-\textit{62 Lotissement Jnane 4 S.Y.B.A Marrakech 40000}\\
-\textbf{Capital social}: 10 000 DHS
-\textbf{ICE}: 002241177000022
-\textbf{RC}: 96715 \\
-\textbf{Patente}: 46300416 
-\textbf{IF}: 37529690 
-\textbf{CNSS}: 1501420\\
-\textbf{Tel}: 06 67 08 58 98\\
+\textbf{\textsc{...}}\\
+\textit{...}\\
+\textbf{Capital social}: ...
+\textbf{ICE}: ...
+\textbf{RC}: ... \\
+\textbf{Patente}: .... 
+\textbf{IF}: ... 
+\textbf{CNSS}: ...\\
+\textbf{Tel}: ....\\
 }}
 \pagestyle{plain}
 \makeatletter
@@ -137,8 +137,8 @@ tex_template_marina = r"""\documentclass{letter}
     NOTE
     \vspace{.5cm}
     \textbf{Mode de paiement:} PAIMENTMODE\\
-    %\textbf{Banque:} Banque Populaire\\
-    %\textbf{Numéro de compte principal:} 21211 3090636 000 8\\
+    %\textbf{Banque:} ...\\
+    %\textbf{Numéro de compte principal:} ...\\
   \end{letter}
 \end{document}"""
 
